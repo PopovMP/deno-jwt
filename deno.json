@@ -1,0 +1,9 @@
+{
+  "name": "@popov/jwt",
+  "license": "MIT",
+  "version": "1.0.0",
+  "exports": "./mod.ts",
+  "imports": {
+    "@popov/base64": "jsr:@popov/base64@^1.0.3"
+  }
+}

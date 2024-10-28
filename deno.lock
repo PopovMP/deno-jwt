@@ -1,0 +1,16 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@popov/base64@^1.0.3": "1.0.3"
+  },
+  "jsr": {
+    "@popov/base64@1.0.3": {
+      "integrity": "cd38240a5ab788b21d12aad1e4ee9b7d41726b68bf0a52fa6d287718419b074a"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@popov/base64@^1.0.3"
+    ]
+  }
+}
