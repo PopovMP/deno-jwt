@@ -27,7 +27,7 @@ export async function createJwt(payload: object, key: string): Promise<string> {
 
 /**
  * Validates a JWT
- * 
+ *
  * This function checks if the JWT is valid and not expired
  *
  * ```typescript

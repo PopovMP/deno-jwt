@@ -5,7 +5,7 @@
  *
  * ```typescript
  * import { createJwt, isJwtValid, isJwtExpired, getJwtPayload } from "@popov/jst";
- * 
+ *
  * const nowSec = Math.floor(Date.now() / 1000);
  * const oneHour = 60 * 60;
  *
