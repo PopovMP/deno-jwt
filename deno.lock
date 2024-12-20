@@ -1,16 +1,28 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@popov/base64@^1.0.3": "1.0.3"
+    "jsr:@popov/base64@^1.0.5": "1.0.5",
+    "npm:@types/node@*": "22.5.4"
   },
   "jsr": {
-    "@popov/base64@1.0.3": {
-      "integrity": "cd38240a5ab788b21d12aad1e4ee9b7d41726b68bf0a52fa6d287718419b074a"
+    "@popov/base64@1.0.5": {
+      "integrity": "a05aaa5a76566b647e389c59ecc7c90f153e0f9667ddd026f21c947e3dece5a4"
+    }
+  },
+  "npm": {
+    "@types/node@22.5.4": {
+      "integrity": "sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "undici-types@6.19.8": {
+      "integrity": "sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw=="
     }
   },
   "workspace": {
     "dependencies": [
-      "jsr:@popov/base64@^1.0.3"
+      "jsr:@popov/base64@^1.0.5"
     ]
   }
 }
